@@ -1,0 +1,76 @@
+import React from 'react'
+
+function Popular() {
+  return (
+     <div>
+      <h1 className='text-white text-3xl  text-center'>Popular  <span className='text-purple-400'> Series </span> On Screen</h1>
+      <div className='mr-3'>
+        <div className='flex gap-3 mt-5 ml-3'>
+          <div>
+             <img className='rounded-[10px] w-50 mt-7 ml-7 ' src="/public/Movies/spider man.webp" alt="" />
+          <h2 className='text-white text-xl font-bold mt-2 ml-7'>Spider-Man</h2>
+          </div>
+
+           <div>
+             <img className='rounded-[10px] w-50 mt-7 ml-7 ' src="/public/Movies/coyoto.webp" alt="" />
+          <h2 className='text-white text-xl font-bold mt-2 ml-7'>Coyote Vs. Acme</h2>
+          </div>
+
+             <div>
+             <img className='rounded-[10px] w-50 mt-7 ml-7 h-75' src="/public/Movies/uxCaBoYXsDC4A0SqTm3SISj0OwK (1).webp" alt="" />
+          <h2 className='text-white text-xl font-bold mt-2 ml-7'>The Runner</h2>
+          </div>
+
+           <div>
+             <img className='rounded-[10px] w-50 mt-7 ml-7' src="/public/Movies/spider3.webp" alt="" />
+          <h2 className='text-white text-xl font-bold mt-2 ml-7'>The Odyssey</h2>
+          </div>
+
+           <div>
+             <img className='rounded-[10px] w-50 mt-7 ml-7' src="/public/Movies/hVXjX1jLZ1ljFSNGXpjJfbTUOa7.webp" alt="" />
+          <h2 className='text-white text-xl font-bold mt-2 ml-7'>Mayday</h2>
+          </div>
+
+           <div>
+             <img className='rounded-[10px] w-50 mt-7 ml-7' src="/public/Movies/pu2VxGlpGwffOx292w18b1tv96j (1).webp" alt="" />
+          <h2 className='text-white text-xl font-bold mt-2 ml-7'>Mutiny</h2>
+          </div>
+        </div>
+          <div className='flex gap-3 mt-5 ml-3'>
+          <div>
+             <img className='rounded-[10px] w-50 mt-7 ml-7' src="/public/Movies/tN799oUR0f1gUKDYdMNrDaY7I51.webp" alt="" />
+          <h2 className='text-white text-xl font-bold mt-2 ml-7'>Colony</h2>
+          </div>
+
+             <div>
+             <img className='rounded-[10px] w-50 mt-7 ml-7' src="/public/Movies/zxcMdx0w5Zmg8yZuuiS7CJ8vOea.webp" alt="" />
+          <h2 className='text-white text-xl font-bold mt-2 ml-7'>Ghost in The cell</h2>
+          </div>
+
+           <div>
+             <img className='rounded-[10px] w-50 mt-7 ml-7' src="/public/Movies/16oqRrWVzQm6qdGfBxvziZ2UiMT.webp" alt="" />
+          <h2 className='text-white text-xl font-bold mt-2 ml-7'>Thundermans</h2>
+          </div>
+
+           <div>
+             <img className='rounded-[10px] w-50 mt-7 ml-7' src="/public/Movies/3r0O6BW9USoZ9mteCVyNKMQriRL.webp" alt="" />
+          <h2 className='text-white text-xl font-bold mt-2 ml-7'>Shape Of My Heart</h2>
+          </div>
+
+           <div>
+             <img className='rounded-[10px] w-50 mt-7 ml-7' src="/public/Movies/bRwnj8WEKBCvmfeUNOukJPwB43K.webp" alt="" />
+          <h2 className='text-white text-xl font-bold mt-2 ml-7'>Obsession</h2>
+          </div>
+
+           <div>
+             <img className='rounded-[10px] w-50 mt-7 ml-7' src="/public/Movies/3PWJqDfygN0YNNjWsDUOXclCp3h.webp" alt="" />
+          <h2 className='text-white text-xl font-bold mt-2 ml-7'>The last sunrice</h2>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  )
+}
+
+export default Popular
