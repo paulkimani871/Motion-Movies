@@ -25,7 +25,7 @@ function Home() {
       <div className='mr-3'>
         <h1 className='text-white text-2xl font-bold mt-10 ml-3'>All Movies</h1>
         
-          <div className='flex gap-3 mt-5 ml-3 flex-wrap pb-20'>
+          <div className='flex gap-3 mt-5 ml-5 flex-wrap pb-20'>
          {movies?.map(movie=>(
            <div key={movie.id}>
              <img className='rounded-[10px] w-50 mt-7 ml-7' src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title} />
