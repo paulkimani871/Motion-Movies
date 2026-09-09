@@ -1,7 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router'
+import { Link, useLocation } from 'react-router'
 
 function Navbar() {
+
+  const location = useLocation();
+  const isActive = (path) => {
+    return location.pathname === path ? 'text-purple-400' : '';
+  }
   return (
     <div className='w-full h-14 bg-[#030014] flex items-center justify-between px-5 text-white '>
 
@@ -9,10 +14,10 @@ function Navbar() {
             <input className='border-2 rounded-2xl p-2 w-[40%] ' type="text" placeholder='Search For Movies,Series and People ' />
             <ul className=''>
                 <li className='flex gap-7 '>
-                    <Link className='hover:underline hover:text-purple-400' to="/">Home</Link>
-                    <Link className='hover:underline hover:text-purple-400' to="/now-showing">Now Showing</Link>
-                    <Link className='hover:underline hover:text-purple-400' to="/series">Series</Link>
-                    <Link className='hover:underline hover:text-purple-400' to="/popular">Popular</Link>
+                    <Link className={`hover:underline ${isActive('/')}` } to="/">Home</Link>
+                    <Link className={`hover:underline ${isActive('/now-showing')}`} to="/now-showing">Now Showing</Link>
+                    <Link className={`hover:underline ${isActive('/series')}`} to="/series">Series</Link>
+                    <Link className={`hover:underline ${isActive('/popular')}`} to="/popular">Popular</Link>
                 </li>
             </ul>
     </div>
