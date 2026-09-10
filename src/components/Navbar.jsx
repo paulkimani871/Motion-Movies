@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <div className='w-full h-14 bg-[#030014] flex items-center justify-between px-5 text-white '>
 
-            <h3 className='text-2xl text-purple-400 hover:text-white hover:cursor-pointer'>Motion</h3>
+            <Link to={"/"} className='text-2xl text-purple-400 hover:text-white hover:cursor-pointer'> Motion</Link>
             <input className='border-2 rounded-2xl p-2 w-[40%] ' type="text" placeholder='Search For Movies,Series and People ' />
             <ul className=''>
                 <li className='flex gap-7 '>
