@@ -6,6 +6,8 @@ import NowShowing from "./pages/NowShowing";
 import Series from "./pages/Series";
 import Popular from "./pages/Popular";
 import MovieDetails from "./pages/MovieDetails";
+import SeriesDetails from "./pages/SeriesDetails";
+import Search from "./pages/Search";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="details/movie/:movieid" element={<MovieDetails/>}/>
         <Route path="now-showing" element={<NowShowing/>}/>
         <Route path="series" element={<Series/>}/>
+        <Route path="details/tv/:seriesid" element={<SeriesDetails/>}/>
+        <Route path="search" element={<Search/>}/>
         <Route path="popular" element={<Popular/>}/>
         </Route>
       </Routes>
