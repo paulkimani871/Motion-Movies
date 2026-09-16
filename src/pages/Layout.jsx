@@ -7,7 +7,7 @@ function Layout() {
   return (
     <div className="w-full min-h-screen bg-[#030303]">
         <Navbar/>
-        <main className="w-full h-[90%]">
+        <main className="w-full min-h-[90vh]">
             <Outlet/>
         </main>
     </div>
